@@ -1,0 +1,52 @@
+.Card {
+	display: inline-block; 
+	word-wrap: break-word;
+}
+
+.event-info {
+	background-color: #1a1a1a;
+	border-radius: 4px;
+	padding: 12px;
+	text-align: left;
+	margin: 0.7rem;
+}
+
+.event-name {
+	font-weight: 600;
+}
+
+.title, .description {
+    flex-wrap: nowrap;
+}
+
+.header-content {
+	background-repeat: no-repeat;
+    background-position: right center;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	justify-content: left;
+    position: relative;
+}
+
+.fa-star {
+	font-size: 1rem;
+}
+
+.event-time.live {
+	color:#47A8FF
+}
+
+.event-info-footer {
+	font-size: 12px;
+	color: #a6a6a6
+}
+
+.ant-breadcrumb {
+	text-align: left;
+}
+
+.event-list-type {
+	width: 76px;
+    border-bottom: 2px solid #00B073
+}
